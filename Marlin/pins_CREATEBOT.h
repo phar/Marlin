@@ -93,7 +93,7 @@
 //
 // Heaters / Fans
 //
-#define HEATER_0_PIN        9
+#define HEATER_0_PIN        9 //verified
 #define HEATER_1_PIN        8
 
 
@@ -118,10 +118,8 @@
 //#define BTN_EN2             62//a8
 //#define BTN_ENC             59//a5
 
-#define BTN_EN1             42
+#define BTN_EN1             61
 #define BTN_EN2             59
-#define BTN_ENC             62
+#define BTN_ENC             43
 
-
-#define SD_DETECT_PIN       49 //fixme
 
