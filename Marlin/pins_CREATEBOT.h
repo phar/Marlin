@@ -39,11 +39,11 @@
 //
 // Limit Switches
 //
-#define X_MIN_PIN          37   
-#define X_MAX_PIN          40
+#define X_MIN_PIN          40   
+#define X_MAX_PIN          37
 
-#define Y_MIN_PIN          41
-#define Y_MAX_PIN          38 
+#define Y_MIN_PIN          38
+#define Y_MAX_PIN          41 
 
 #define Z_MIN_PIN          19
 #define Z_MAX_PIN          20
@@ -60,10 +60,38 @@
 //
 // Steppers
 //
-  #define X_STEP_PIN         35
-  #define X_DIR_PIN          36
-  #define X_ENABLE_PIN       34
+//  #define X_STEP_PIN         35
+//  #define X_DIR_PIN          36
+//  #define X_ENABLE_PIN       34
+
+  #define E0_STEP_PIN         35
+  #define E0_DIR_PIN          36
+  #define E0_ENABLE_PIN       34
+
+  #define Y_STEP_PIN        4
+  #define Y_DIR_PIN         54//A0
+  #define Y_ENABLE_PIN      5
+
+  #define Z_STEP_PIN         56//A2 //works
+  #define Z_DIR_PIN          60//A6
+  #define Z_ENABLE_PIN       55//A1
+
+  #define X_STEP_PIN         26  //works
+  #define X_DIR_PIN          27
+  #define X_ENABLE_PIN       25
   
+  
+  #define E1_STEP_PIN        29
+  #define E1_DIR_PIN         39
+  #define E1_ENABLE_PIN      28
+
+  /*
+
+
+  #define X_STEP_PIN        1
+  #define X_DIR_PIN         54
+  #define X_ENABLE_PIN      28
+
   #define Y_STEP_PIN         26 //verified both directions
   #define Y_DIR_PIN          27
   #define Y_ENABLE_PIN       25
@@ -71,14 +99,15 @@
   #define Z_STEP_PIN         56//A2 //verified
   #define Z_DIR_PIN          60//A6
   #define Z_ENABLE_PIN       55//A1
-  
-  #define E0_STEP_PIN        1
-  #define E0_DIR_PIN         54//A0
-  #define E0_ENABLE_PIN      2
-  
-  #define E1_STEP_PIN        29
-  #define E1_DIR_PIN         39
-  #define E1_ENABLE_PIN      28
+
+  #define E0_STEP_PIN        29
+  #define E0_DIR_PIN         39
+  #define E0_ENABLE_PIN      28
+
+  #define E1_STEP_PIN        1
+  #define E1_DIR_PIN         54//A0
+  #define E1_ENABLE_PIN      2
+  */
   
   
 
